@@ -1,0 +1,141 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(192, 196, 199);
+  padding-top: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  flex-wrap: wrap;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  max-height: 1080px;
+  border: 10px solid black;
+  margin: auto;
+  line-height: 40px;
+  text-align: center;
+}
+
+#color {
+  background-color: rgb(104, 94, 238);
+  max-height: 1080px;
+  font-size: large;
+}
+
+.contenedor > div {
+  display: block;
+  padding: 20px;
+  color: black;
+  background-color: rgb(192, 196, 199);
+}
+
+img {
+  width: 200px;
+  height: 230px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.contacto {
+  text-align: left;
+  width: 80px;
+  height: 50px;
+  padding-left: 0px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.mesage {
+  text-align: left;
+  padding-left: 0px;
+  padding: 0px;
+  padding-top: 10px;
+  height: 80px;
+  width: 200px;
+  float: right;
+}
+
+.uno {
+  text-align: left;
+  padding-left: 0px;
+  padding: 0px;
+  padding-top: 20px;
+  width: 60px;
+  float: left;
+}
+
+.nivel {
+  max-height: 50px;
+  float: right;
+  padding: 0px;
+  padding-top: 10px;
+}
+
+.hobbie {
+  text-align: center;
+  width: 75px;
+  height: 75px;
+  padding: 10px;
+  padding-top: 20;
+}
+
+h2 {
+  padding: 0px;
+  line-height: 0px;
+  text-align: justify;
+  width: 300px;
+  background-color: antiquewhite;
+}
+
+p {
+  text-align: justify;
+  line-height: 30px;
+  padding: 20px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.fecha {
+  text-align: left;
+  padding: 0px;
+  padding-top: 30px;
+  padding-left: 30px;
+  width: 60px;
+  float: left;
+}
+
+.curso {
+  float: right;
+  text-align: left;
+  line-height: 25px;
+  padding: 0px;
+  padding-top: 20px;
+  width: 300px;
+}
+
+#fecha {
+  text-align: left;
+  padding: 0px;
+  padding-top: 30px;
+  padding-left: 30px;
+  width: 60px;
+  float: left;
+}
+
+#asiste {
+  float: right;
+  text-align: left;
+  line-height: 20px;
+  padding: 0px;
+  padding-top: 20px;
+  width: 300px;
+}
+
+#asistir {
+  text-align: left;
+  padding-top: 50px;
+}
